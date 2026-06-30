@@ -3,6 +3,11 @@
 Candidate Transformer is a Python data pipeline that combines candidate data
 from multiple sources into one canonical JSON candidate profile.
 
+## Author
+
+- GitHub: [singhshrasti](https://github.com/singhshrasti)
+- Email: [shrastisingh551@gmail.com](mailto:shrastisingh551@gmail.com)
+
 It supports sample inputs from:
 
 - Recruiter CSV
