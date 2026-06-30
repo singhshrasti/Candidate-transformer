@@ -15,6 +15,26 @@ It supports sample inputs from:
 The pipeline parses, normalizes, matches, merges, validates, and writes the
 final candidate profile to `output/canonical_candidate.json`.
 
+## Pipeline Diagram
+
+```text
+Recruiter CSV     ATS JSON     Resume PDF     Notes TXT     LinkedIn JSON     GitHub JSON
+      |              |             |              |              |               |
+      +--------------+-------------+--------------+--------------+---------------+
+                                     |
+                                  Parsers
+                                     |
+                                Normalizers
+                                     |
+                                  Matchers
+                                     |
+                                   Merger
+                                     |
+                                 Validator
+                                     |
+                         output/canonical_candidate.json
+```
+
 ## Project Structure
 
 ```text
@@ -53,39 +73,39 @@ candidate-transformer/
 
 ## Setup
 
-Open PowerShell in the project folder:
+From the project folder:
 
-```powershell
-cd C:\Users\shras\Downloads\candidate-transformer\candidate-transformer
+```text
+cd candidate-transformer
 ```
 
 Create a virtual environment:
 
-```powershell
+```text
 python -m venv .venv
 ```
 
 Activate the virtual environment:
 
-```powershell
+```text
 .\.venv\Scripts\Activate.ps1
 ```
 
 Install dependencies:
 
-```powershell
+```text
 python -m pip install -r requirements.txt
 ```
 
-If PowerShell blocks activation scripts, run this once for the current terminal:
+If activation scripts are blocked, run this once for the current shell session:
 
-```powershell
+```text
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
 
 Then activate again:
 
-```powershell
+```text
 .\.venv\Scripts\Activate.ps1
 ```
 
@@ -93,13 +113,13 @@ Then activate again:
 
 Run the default pipeline:
 
-```powershell
+```text
 python -m src.main
 ```
 
 You can also run it without activating the virtual environment:
 
-```powershell
+```text
 .\.venv\Scripts\python.exe -m src.main
 ```
 
@@ -122,7 +142,7 @@ Pipeline complete.
 
 Use the CLI when you want to pass specific source files:
 
-```powershell
+```text
 python cli.py `
   --resume data/resume.pdf `
   --ats data/ats.json `
@@ -136,7 +156,7 @@ python cli.py `
 
 All source arguments are optional. For example, you can run only ATS and resume:
 
-```powershell
+```text
 python cli.py `
   --ats data/ats.json `
   --resume data/resume.pdf
@@ -146,7 +166,7 @@ python cli.py `
 
 Run the test suite:
 
-```powershell
+```text
 python -m pytest -q
 ```
 
