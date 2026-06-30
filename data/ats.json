@@ -1,0 +1,39 @@
+{
+  "candidate": {
+    "name": "Jordan Smith",
+    "emails": ["jordan.smith@gmail.com", "jsmith@workmail.com"],
+    "phones": ["+14155550192"],
+    "location": "San Francisco, California",
+    "headline": "Senior Software Engineer",
+    "years_experience": 6,
+    "skills": ["Python", "AWS", "Kubernetes", "PostgreSQL"],
+    "links": {
+      "linkedin": "https://linkedin.com/in/jordansmith"
+    },
+    "experience": [
+      {
+        "company": "Acme Corp",
+        "title": "Senior Software Engineer",
+        "start_date": "2021-03-01",
+        "end_date": null,
+        "description": "Leading backend platform team."
+      },
+      {
+        "company": "Initech",
+        "title": "Software Engineer",
+        "start_date": "2018-06-01",
+        "end_date": "2021-02-15",
+        "description": "Built internal tooling and ETL pipelines."
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of California, Berkeley",
+        "degree": "B.S.",
+        "field_of_study": "Computer Science",
+        "start_date": "2014-08-01",
+        "end_date": "2018-05-15"
+      }
+    ]
+  }
+}

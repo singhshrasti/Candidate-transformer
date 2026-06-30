@@ -1,0 +1,49 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 5 0 R >> >> /MediaBox [0 0 612 792] /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1083 >>
+stream
+BT /F1 11 Tf 50 750 Td (Jordan Smith) Tj ET
+BT /F1 11 Tf 50 734 Td (jordan.smith@gmail.com | 415-555-0192) Tj ET
+BT /F1 11 Tf 50 718 Td (https://linkedin.com/in/jordansmith | https://github.com/jordansmith) Tj ET
+BT /F1 11 Tf 50 702 Td (San Francisco, CA) Tj ET
+BT /F1 11 Tf 50 686 Td () Tj ET
+BT /F1 11 Tf 50 670 Td (SUMMARY) Tj ET
+BT /F1 11 Tf 50 654 Td (Senior Software Engineer with 6+ years of experience building scalable backend) Tj ET
+BT /F1 11 Tf 50 638 Td (systems and data pipelines.) Tj ET
+BT /F1 11 Tf 50 622 Td () Tj ET
+BT /F1 11 Tf 50 606 Td (SKILLS) Tj ET
+BT /F1 11 Tf 50 590 Td (Python, SQL, AWS, Docker, Kubernetes, Machine Learning, ETL, Airflow) Tj ET
+BT /F1 11 Tf 50 574 Td () Tj ET
+BT /F1 11 Tf 50 558 Td (EXPERIENCE) Tj ET
+BT /F1 11 Tf 50 542 Td (Senior Software Engineer, Acme Corp \(2021 - Present\)) Tj ET
+BT /F1 11 Tf 50 526 Td (Software Engineer, Initech \(2018 - 2021\)) Tj ET
+BT /F1 11 Tf 50 510 Td () Tj ET
+BT /F1 11 Tf 50 494 Td (EDUCATION) Tj ET
+BT /F1 11 Tf 50 478 Td (B.S. Computer Science, University of California, Berkeley \(2014 - 2018\)) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001376 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1446
+%%EOF

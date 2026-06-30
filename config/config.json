@@ -1,0 +1,21 @@
+{
+  "source_priority": ["resume", "ats", "linkedin", "github", "csv", "notes"],
+  "source_reliability": {
+    "ats": 1.0,
+    "resume": 0.95,
+    "linkedin": 0.90,
+    "github": 0.85,
+    "csv": 0.80,
+    "notes": 0.70
+  },
+  "missing_value_policy": {
+    "policy": "null"
+  },
+  "output_fields": {
+    "include_fields": [],
+    "exclude_fields": [],
+    "rename_map": {},
+    "include_provenance": true
+  },
+  "fuzzy_match_threshold": 88.0
+}

@@ -1,0 +1,13 @@
+{
+  "login": "jordansmith",
+  "name": "Jordan Smith",
+  "bio": "Backend engineer. Python, distributed systems, occasional Rust.",
+  "html_url": "https://github.com/jordansmith",
+  "location": "San Francisco, CA",
+  "email": "jordan.smith@gmail.com",
+  "languages": ["Python", "Go", "Rust"],
+  "repos": [
+    {"name": "etl-toolkit", "language": "Python", "topics": ["etl", "airflow", "data-engineering"]},
+    {"name": "k8s-operators", "language": "Go", "topics": ["kubernetes", "devops"]}
+  ]
+}

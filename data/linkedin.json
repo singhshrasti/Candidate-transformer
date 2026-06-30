@@ -1,0 +1,31 @@
+{
+  "name": "Jordan Smith",
+  "headline": "Senior Software Engineer @ Acme Corp",
+  "location": "San Francisco Bay Area",
+  "profile_url": "https://linkedin.com/in/jordansmith",
+  "skills": ["Python", "Distributed Systems", "Kubernetes", "Leadership"],
+  "positions": [
+    {
+      "company": "Acme Corp",
+      "title": "Senior Software Engineer",
+      "start_date": "2021-03",
+      "end_date": "Present",
+      "description": "Leading backend platform team across 3 squads."
+    },
+    {
+      "company": "Initech",
+      "title": "Software Engineer",
+      "start_date": "2018-06",
+      "end_date": "2021-02"
+    }
+  ],
+  "education": [
+    {
+      "school": "University of California, Berkeley",
+      "degree": "B.S.",
+      "field": "Computer Science",
+      "start_date": "2014-08",
+      "end_date": "2018-05"
+    }
+  ]
+}
